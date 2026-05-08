@@ -17,6 +17,9 @@ Personal notes:
     - Exploring assembly constraints and multi-part models
     - Testing custom selector patterns for complex geometry filtering
     - See examples/ directory for personal experiments
+    - TODO: investigate DirectionMinMaxSelector behavior on curved edges
+    - NOTE: SumSelector and SubtractSelector are easy to confuse; SumSelector
+      is OR logic, SubtractSelector is set-difference (not arithmetic)
 """
 
 from .cq import (
