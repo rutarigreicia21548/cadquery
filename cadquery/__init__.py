@@ -9,6 +9,9 @@ Basic usage::
     import cadquery as cq
 
     result = cq.Workplane("XY").box(1, 2, 3)
+
+Note: This is a personal fork for learning and experimentation.
+Upstream project: https://github.com/CadQuery/cadquery
 """
 
 from .cq import (
@@ -53,6 +56,10 @@ from .sketch import Sketch
 __version__ = "2.4.0"
 __author__ = "CadQuery Contributors"
 __license__ = "Apache-2.0"
+
+# Personal fork metadata
+__fork_author__ = "personal"
+__fork_purpose__ = "learning and experimentation"
 
 __all__ = [
     # Core workplane
