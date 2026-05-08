@@ -12,6 +12,11 @@ Basic usage::
 
 Note: This is a personal fork for learning and experimentation.
 Upstream project: https://github.com/CadQuery/cadquery
+
+Personal notes:
+    - Exploring assembly constraints and multi-part models
+    - Testing custom selector patterns for complex geometry filtering
+    - See examples/ directory for personal experiments
 """
 
 from .cq import (
