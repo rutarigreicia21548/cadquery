@@ -20,6 +20,8 @@ Personal notes:
     - TODO: investigate DirectionMinMaxSelector behavior on curved edges
     - NOTE: SumSelector and SubtractSelector are easy to confuse; SumSelector
       is OR logic, SubtractSelector is set-difference (not arithmetic)
+    - NOTE: AndSelector is equivalent to set-intersection; combining with
+      InverseSelector gives NOT logic, e.g. AndSelector(sel, InverseSelector(other))
 """
 
 from .cq import (
