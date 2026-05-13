@@ -22,6 +22,8 @@ Personal notes:
       is OR logic, SubtractSelector is set-difference (not arithmetic)
     - NOTE: AndSelector is equivalent to set-intersection; combining with
       InverseSelector gives NOT logic, e.g. AndSelector(sel, InverseSelector(other))
+    - NOTE: StringSyntaxSelector is the entry point for the string-based selector
+      mini-language (e.g. "|X", "#Z", ">Y"); prefer it for interactive use
 """
 
 from .cq import (
@@ -70,6 +72,8 @@ __license__ = "Apache-2.0"
 # Personal fork metadata
 __fork_author__ = "personal"
 __fork_purpose__ = "learning and experimentation"
+# Upstream version this fork is based on, for easy diffing against upstream releases
+__fork_base_version__ = "2.4.0"
 
 __all__ = [
     # Core workplane
